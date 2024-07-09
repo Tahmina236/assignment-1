@@ -8,3 +8,98 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+/* banner section style starts here */
+.banner-container {
+max-width: 1440px;
+/* border: 2px solid red; */
+min-height: 652px;
+margin: 0 auto;
+margin-top: 28px;
+background-image: url(../assets/Hero-bg.png);
+margin-bottom: 50px;
+}
+.banner-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.banner-content img {
+    margin-top: 30px;
+margin-bottom: 60px;
+}
+.banner-content h2 {
+    color: rgb(13, 19, 33);
+font-size: 40px;
+font-weight: 800;
+margin-right: 221px;
+margin-left: 221px;
+margin-bottom: 75px;
+text-align: center;
+}
+.banner-content p {
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 17px;
+font-weight: 400;
+text-align: center;
+ margin-bottom: 30px;
+ margin-right: 294px;
+ margin-left: 294px;
+ 
+}
+.para {
+/* margin-bottom: 10px; */
+}
+.button {
+    border: 15px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    margin-left: 616px;
+    margin-right: 616px;
+}
+/* banner section style ends here */
+
+/* Second part starts here */
+.second-section-container {
+    max-width: 1140px;
+ border: 2px solid red;
+    min-height: 1393px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    margin-top: 28px;
+   
+}
+ .second-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.second-section-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.first-part-container {
+
+}
+.first-part-content {
+    
+}
+
+/* Second part ends here */
