@@ -296,18 +296,116 @@ font-weight: 800;
     margin-top: 24px;
     margin-bottom: 48px;
 }
-.border {
-    width: 1140px ;
+ .border {
+    width: 1115px ;
     height: 614px;
     border: 2px solid rgb(185, 184, 184);
     margin-bottom: 90px;
     border-radius: 15px;
     padding: 32px 32px 32px 32px;
-}
-.border img {
-    width: 1076px;
-height: 550px;
-text-align: center;
-}
+ }
 /* 3rd design ends here */
 
+/* 4th design starts here */
+.skills {
+    max-width: 1140px;
+  /* border: 2px solid rgb(114, 2, 110); */
+    min-height: 460px;
+    margin: 0 auto;
+    /* padding: 80px 97px 80px 97px; */
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+.skills-container {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills-container h3 {
+    color: rgb(13, 19, 33);
+    font-size: 33px;
+    font-weight: 800;
+}
+.skills-container p {
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 144px;
+    margin-right: 144px ;
+    text-align: center;
+}
+.all-skill {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    margin-top: 42px;
+}
+.skill-container {
+    width: 33%;
+    max-width: 364px;
+    min-height: 299px;
+    padding: 50px 50px 50px 50px;
+  /* border: 2px solid rgb(114, 2, 110); */
+    /* min-height: 460px; */
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.skill-container h4 {
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+margin-top: 30px;
+}
+.skill-container p {
+    color: rgb(13, 19, 33);
+font-size: 18px;
+font-weight: 400;
+margin-top: 50px;
+}
+
+.skill-container-two {
+    width: 33%;
+    max-width: 364px;
+    min-height: 299px;
+    padding: 50px 50px 50px 50px;
+  /* border: 2px solid rgb(114, 2, 110); */
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.skill-container-two h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.skill-container-two p{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.skill-container-three {
+     width: 33%;
+    max-width: 364px;
+    min-height: 299px;
+    padding: 50px 50px 50px 50px;
+  /* border: 2px solid rgb(114, 2, 110); */
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.skill-container-three h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.skill-container-three p {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+/* 4th design ends here */
