@@ -68,7 +68,8 @@ text-align: center;
 /* Second part starts here */
 .second-section-container {
     max-width: 1140px;
-  border: 2px dotted rgb(126, 212, 223);
+  /* border: 2px dotted rgb(126, 212, 223); */
+  background: rgba(13, 19, 33, 0.02);
     min-height: 1393px;
     margin: 0 auto;
     padding: 80px 97px 80px 97px;
@@ -417,7 +418,7 @@ min-height: 313px;
 /* border: 2px solid rebeccapurple; */
 border-radius: 16px;
 margin: 0 auto;
-background: rgba(0,0,0,0.5);
+background: rgba(0,0,0,0.4);
  background-blend-mode: overlay;
 background-image: url(../assets/handshake.jpg) ;
  background-repeat: no-repeat;
@@ -462,12 +463,38 @@ margin-bottom: 16px;
     background: white;
     font-weight: 550;
     font-size: 20px;
+    margin-bottom: 95px;
 }
 .textarea {
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
 background: rgb(255, 255, 255);
+margin-bottom: 95px;
+}
+/* 5th style ends here */
+/* Footer styles */
+.footer-container {
+    width: 1440px;
+height: 100px;
+/* border:2px solid rebeccapurple; */
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+padding: 32px 150px 32px 150px;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+.footer-content {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 550px;
+}
+.footer-content h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-/* 5th style ends here */
