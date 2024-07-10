@@ -284,7 +284,7 @@ justify-content: center;
 align-items: center;
 
 }
-.third-section-content h3 {
+.third-section-content h1 {
     color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
@@ -323,7 +323,7 @@ display: flex;
     align-items: center;
 
 }
-.skills-container h3 {
+.skills-container h1 {
     color: rgb(13, 19, 33);
     font-size: 33px;
     font-weight: 800;
@@ -353,7 +353,7 @@ display: flex;
     border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
 }
-.skill-container h4 {
+.skill-container h3 {
     color: rgb(13, 19, 33);
 font-size: 24px;
 font-weight: 800;
@@ -375,7 +375,7 @@ margin-top: 50px;
     border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 }
-.skill-container-two h4 {
+.skill-container-two h3 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
@@ -396,7 +396,7 @@ background: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
-.skill-container-three h4 {
+.skill-container-three h3 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
@@ -409,3 +409,57 @@ background: rgba(255, 223, 0, 0.05);
     margin-top: 50px;
 }
 /* 4th design ends here */
+
+/* 5th style starts here */
+ .fifth-container {
+max-width: 1140px;
+min-height: 313px;
+border: 2px solid rebeccapurple;
+border-radius: 16px;
+margin: 0 auto;
+background-image: url(../assets/handshake1.jpg) ;
+/* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),  */
+ background-repeat: repeat;
+    /* border-radius: 16px; */
+ background-size: cover;
+ background-position: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+ 
+
+.fifth-content {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 48px;
+    align-items: center;
+
+}
+.fifth-content h2 {
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.fifth-content p {
+    margin-bottom: 38px;
+}
+.last-part-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.btn {
+    border: 10px solid white;
+    border-radius: 15px;
+    /* background-color: black; */
+    color: rgb(9, 9, 9);
+    font-weight: 550;
+    font-size: 20px;
+}
+
+/* 5th style ends here */
