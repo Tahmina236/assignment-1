@@ -52,10 +52,10 @@ text-align: center;
 /* margin-bottom: 10px; */
 }
 .button {
-    border: 15px solid black;
+    border: 10px solid rgb(5, 1, 4);
     border-radius: 8px;
-    background-color: black;
-    color: white;
+    background-color: rgb(254, 253, 253);
+    color: rgb(252, 246, 246);
     font-weight: 600;
     font-size: 20px;
     margin-top: 32px;
@@ -170,9 +170,11 @@ justify-content: center;
 align-items: center;
 }
 .second-part-content img {
-    width: 223px;
-    height: 208px;
-    margin-top: 159px;
+    width: 289.56px;
+    height: 247.01px;
+    /* width: 223px; */
+    /* height: 208px; */
+    margin-top: 79px;
     margin-right: 110px;
 }
 .second-part-right-side {
@@ -261,9 +263,11 @@ justify-content: center;
 align-content: center;
     }
     .third-part-right-side img {
-        width: 206px;
-    height: 187px;
-    margin-top: 159px;
+        width: 289.56px;
+    height: 247.01px;
+        /* width: 206px; */
+    /* height: 187px; */
+    margin-top: 99px;
     margin-left: 110px;
     }
 /* third part ends here */
@@ -474,7 +478,7 @@ margin-bottom: 95px;
 }
 /* 5th style ends here */
 /* Footer styles */
-.footer-container {
+#footer-container {
     width: 1440px;
 height: 100px;
 /* border:2px solid rebeccapurple; */
